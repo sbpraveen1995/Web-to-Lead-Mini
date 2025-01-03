@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web to Lead Form</title>
     <link rel ="stylesheet" href="style.css"/>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="script.js"></script>
 </head>
 
@@ -17,7 +18,7 @@
         <input type=hidden name="oid" value="00D5j000004nWyO">
         <input type=hidden name="retURL" value="https://sbpraveen1995.github.io/Web-to-Lead-Mini/thanks.html">
         <input type=hidden name="Lead_Date__c" class="outputdate" >
-
+        <input type=hidden name='captcha_settings' value='{"keyname":"web_to_lead","fallback":"true","orgId":"00D5j000004nWyO","ts":""}'>
     
         
     
@@ -35,8 +36,12 @@
         
 <!--         Lead Date:<span class="dateInput dateOnlyInput">
         <input  id="00NJ4000004B8yb" name="00NJ4000004B8yb" size="12" type="text" /></span><br> -->
+
+        
         
         <input type="submit" name="submit" class = "submit">
+
+        <div class="g-recaptcha" data-sitekey="6Ld1s6wqAAAAAFdqy6BL1ULAqwh2Rn5xNnWlLjuP"></div><br>
         
         </form>
     
